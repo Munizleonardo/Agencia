@@ -8,6 +8,7 @@
     padding: 0;
     max-width: 100%;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .limitar-secao {
@@ -38,6 +39,7 @@ body {
 .topo-logo img {
     width: 70px;
     left: 300px;
+    top: 10px;
     position: relative;
 }
 
@@ -58,7 +60,7 @@ body {
 .topo-links {
     position: absolute;
     top: 60px;
-    right: 0;
+    right: 50px;
     
 }
 
@@ -88,7 +90,7 @@ body {
 
 .secao-banner {
     display: flex;
-    width: 100%;
+    
     max-width: 100%;
     height: 400px;
     
@@ -98,7 +100,7 @@ body {
 .banner-informacoes h2 {
     font-size: 30px;
     position: relative;
-    left: 300px;
+    left: 400px;
     top: 350px;
     background-image: url('/img/222.avif');
     background-size: 20px;
@@ -120,13 +122,13 @@ body {
     height: auto;
     border-radius: 50%;
     top: 170px;
-    left: 350px;
+    left: 450px;
 }
 
 .banner-informacoes p {
     position: relative;
     top: 100px;
-    left: 850px;
+    left: 1000px;
     width: 100%;
     margin: auto;
     
@@ -145,7 +147,7 @@ body {
 .freud {
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
+    color: antiquewhite;
 }
 
 /* Seção Banner */
@@ -213,20 +215,20 @@ body {
 .secao-informacoes {
     width: 100%;
     max-width: 100%;
-    padding: 50px;
+    
     height: 650px;
     
     background-image: linear-gradient(rgb(22, 148, 142), rgb(42, 145, 139));
 }
 
 .imagem-psicologo {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     border-radius: 50%;
     margin: 0 50px;
     position: relative;
     left: 200px;
-    top: 150px;
+    top: 200px;
 }
 
 .informacoes h3 {
@@ -234,8 +236,8 @@ body {
     color: #ffffff;
     margin-bottom: 20px;
     position: relative;
-    left: 1000px;
-    bottom: 480px;
+    left: 1150px;
+    bottom: 650px;
 
     background-image: url('/img/222.avif');
     background-size: 20px;
@@ -254,10 +256,10 @@ body {
     margin-bottom: 20px;
     position: relative;
 
-    ;
-    bottom: 450px;
-    left: 1000px;
-    width: 800px;
+    max-width: 800px;
+    bottom: 600px;
+    left: 1150px;
+    
 
 }
 
@@ -272,9 +274,10 @@ body {
     width: 100%;
     max-width: 100%;
     margin: auto;
-    padding: 20px 0;
     
-    text-align: center;
+    display: relative;
+    
+    
     background-image: linear-gradient(rgb(42, 145, 139), rgb(65, 145, 141));
 }
 
@@ -283,168 +286,212 @@ body {
     color: #ffffff;
     margin-bottom: 20px;
     position: relative;
-    left: 250px;
-    top: 100px;
+    left: 500px;
+    top: 180px;
 
     background-image: url('/img/222.avif');
     background-size: 20px;
-    width: 400px;
+    width: 1200px;
+    height: 50px;
     text-align: center;
     padding: 1px;
     margin: 1px;
     border-radius: 30%;
     color: rgb(7, 126, 116);
     font-family: 'Times New Roman', Times, serif;
+
+    
 }
 
 .ajuda1 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: relative;
+    left: 500px;
+    top: 250px;
 
 }
 
-.ajuda1:hover ::after {
-    content: "Ansiedade tem cura!";
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
-    
+
+.ajuda1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
 }
+
+.ajuda1 p {
+    top: 10px;
+    position: relative;
+}
+
 
 .ajuda2 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: relative;
+    left: 300px;
+    top: 250px;
 
 }
 
-.ajuda2:hover ::after {
-    content: "Me chama no WhatsApp";
-    text-decoration: dashed;
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
+.ajuda2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
 }
+
+.ajuda2 p {
+    top: 10px;
+    position: relative;
+}
+
 
 .ajuda3 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
 
 }
 
-.ajuda3:hover ::after {
-    content: "Me chama no WhatsApp";
-    text-decoration: dashed;
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
+.ajuda3 p {
+    top: 10px;
+    position: relative;
 }
+
+.ajuda3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+
+.ajuda3 p {
+    top: 10px;
+    position: relative;
+}
+
 
 .ajuda4 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: relative;
+    left: 800px;
+    bottom: 50px;
 
 }
 
-.ajuda4:hover ::after {
-    content: "Me chama no WhatsApp";
-    text-decoration: dashed;
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
+.ajuda4 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
 }
+
+.ajuda4 p {
+    top: 10px;
+    position: relative;
+}
+
 
 .ajuda5 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: relative;
+    left: 1300px;
+    bottom: 200px;
+    
 
 }
 
-.ajuda5:hover ::after {
-    content: "Me chama no WhatsApp";
-    text-decoration: dashed;
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
+.ajuda5 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.ajuda5 p {
+    top: 10px;
+    position: relative;
 }
 
 .ajuda6 {
     font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-    position: relative;
-    left: 1000px;
     
     width: 300px;
-    height: 60px;
-
-    justify-items: left;
+    height: 150px;
     text-align: center;
 
     background-color: antiquewhite;
+    border-radius: 50%;
 
+    position: relative;
+    left: 1450px;
+    bottom: 500px;
 }
 
-.ajuda6:hover ::after {
-    content: "Me chama no WhatsApp";
-    text-decoration: dashed;
-    background-color: rgb(42, 145, 139);
-    color: #ffffff;
-    
+.ajuda6 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.ajuda6 p {
+    top: 10px;
+    position: relative;
 }
 
 /* Seção Valores */
@@ -454,13 +501,106 @@ body {
 /* Seção Psicólogo */
 
 .secao-psicologo {
+    
     width: 100%;
-    max-width: 100%;
-    margin: auto;
-    padding: 50px 0;
+    max-width: auto;
     text-align: center;
-    background: linear-gradient(rgb(65, 145, 141), rgb(85, 143, 140))
+    background: linear-gradient(rgb(65, 145, 141), rgb(85, 143, 140));
+    display: flex;
+    
+    
 }
+
+.sobre-sessoes h3{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+
+    background-image: url('/img/222.avif');
+    background-size: 20px;
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 30%;
+    color: rgb(7, 126, 116);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    cursor: pointer;
+    position: relative;
+    width: 2000px;
+    height: 180px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+    right: 550px;
+    bottom: 80px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .imagem {
+    width: 100%;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(7, 126, 116);
+}
+
+.card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(22, 124, 116);
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.card:hover .card-content {
+    transform: rotateX(0deg);
+}
+
+.card-title {
+    margin: 0;
+    font-size: 15px;
+    color:#000000;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card:hover .image {
+    scale: 0;
+}
+
+.card-description {
+    margin: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
 
 /* Seção Psicólogo */
 /* Seção Psicólogo */
@@ -474,7 +614,215 @@ body {
     margin: auto;
     padding: 50px 0;
     text-align: center;
-    background: linear-gradient(rgb(85, 143, 140), rgb(104, 141, 139))
+    justify-items: center;
+    background: linear-gradient(rgb(85, 143, 140), rgb(104, 141, 139));
+    display: flex;
+    box-sizing: border-box;
+}
+
+.especialidades h3 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 70px;
+
+    background-image: url('/img/222.avif');
+    background-size: 20px;
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 30%;
+    color: rgb(7, 126, 116);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadros-1 {
+    position: relative;
+    right: 620px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    width: 1200px;
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+   
+}
+
+.quadros-1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    bottom: 5px;
+}
+
+.quadros-2 {
+    position: relative;
+    right: 600px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.quadros-2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+
+.quadros-3 {
+    position: relative;
+    right: 580px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    width: 1000px;
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.quadros-3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+}
+
+.quadros-4 {
+    position: relative;
+    right: 540px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    width: 1100px;
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.quadros-4 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 28px;
+    bottom: 5px;
+}
+
+.quadros-5 {
+    position: relative;
+    right: 520px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}
+
+.quadros-5 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+
+.quadros-6 {
+    position: relative;
+    right: 500px;
+    padding: 20px;
+    top: 10px;
+
+    cursor: pointer;
+    position: relative;
+    
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0 0 0 5px rgb(5, 61, 57);
+    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+
+}
+
+.quadros-6 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
 }
 
 /* Especialidades */
@@ -488,33 +836,39 @@ body {
     max-width: 100%;
     margin: auto;
     padding: 50px 0;
-    text-align: center;background: linear-gradient(rgb(104, 141, 139), rgb(166, 196, 194))
-}
-
-/* Atendimento */
-/* Atendimento */
-
-/* Contato */
-/* Contato */
-
-.contato {
-    width: 100%;
-    max-width: 100%;
-    margin: auto;
-    padding: 50px 0;
     text-align: center;
-    background: linear-gradient(rgb(166, 196, 194), rgb(207, 207, 207))
+    background: linear-gradient(rgb(104, 141, 139), rgb(166, 196, 194));
 }
 
-/* Contato */
-/* Contato */
+.atendimento h3 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+
+    background-image: url('/img/222.avif');
+    background-size: 20px;
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 30%;
+    color: rgb(7, 126, 116);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Atendimento */
+/* Atendimento */
 
 /* Copy */
 /* Copy */
 
 .Copy {
     text-align: center;
-    background-color: rgb(207, 207, 207);
+    background: linear-gradient(rgb(166, 196, 194), rgb(207, 207, 207))
 }
 
 /* Copy */
