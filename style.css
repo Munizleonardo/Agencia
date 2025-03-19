@@ -1,8 +1,6 @@
 /* Estilos Globais */
 /* Estilos Globais */
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +17,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(3, 124, 117), rgb(200, 209, 209));
+    background-color: rgb(7, 126, 116);
     
 }
 
@@ -94,13 +92,13 @@ body {
     max-width: 100%;
     height: 400px;
     
-    background-image: linear-gradient(rgb(7, 126, 116), rgb(22, 148, 142));
+    background-color: rgb(7, 126, 116);
 }
 
 .banner-informacoes h2 {
     font-size: 30px;
     position: relative;
-    left: 400px;
+    left: 300px;
     top: 350px;
     background-image: url('/img/222.avif');
     background-size: 20px;
@@ -122,15 +120,16 @@ body {
     height: auto;
     border-radius: 50%;
     top: 170px;
-    left: 450px;
+    left: 350px;
 }
 
 .banner-informacoes p {
     position: relative;
     top: 100px;
-    left: 1000px;
+    left: 800px;
     width: 100%;
     margin: auto;
+    max-width: 1000px;
     
     text-align: left;
 }
@@ -218,16 +217,16 @@ body {
     
     height: 650px;
     
-    background-image: linear-gradient(rgb(22, 148, 142), rgb(42, 145, 139));
+    background-color: rgb(7, 126, 116);
 }
 
 .imagem-psicologo {
-    width: 800px;
+    max-width: 650px;
     height: 800px;
     border-radius: 50%;
     margin: 0 50px;
     position: relative;
-    left: 200px;
+    left: 100px;
     top: 200px;
 }
 
@@ -236,8 +235,8 @@ body {
     color: #ffffff;
     margin-bottom: 20px;
     position: relative;
-    left: 1150px;
-    bottom: 650px;
+    left: 1000px;
+    bottom: 700px;
 
     background-image: url('/img/222.avif');
     background-size: 20px;
@@ -256,9 +255,10 @@ body {
     margin-bottom: 20px;
     position: relative;
 
-    max-width: 800px;
-    bottom: 600px;
-    left: 1150px;
+    max-width: 900px;
+    max-height: 500px;
+    bottom: 650px;
+    left: 900px;
     
 
 }
@@ -278,7 +278,7 @@ body {
     display: relative;
     
     
-    background-image: linear-gradient(rgb(42, 145, 139), rgb(65, 145, 141));
+    background-color: rgb(7, 126, 116);
 }
 
 .secao-valores h3 {
@@ -505,7 +505,7 @@ body {
     width: 100%;
     max-width: auto;
     text-align: center;
-    background: linear-gradient(rgb(65, 145, 141), rgb(85, 143, 140));
+    background-color: rgb(7, 126, 116);
     display: flex;
     
     
@@ -615,7 +615,7 @@ body {
     padding: 50px 0;
     text-align: center;
     justify-items: center;
-    background: linear-gradient(rgb(85, 143, 140), rgb(104, 141, 139));
+    background-color: rgb(7, 126, 116);
     display: flex;
     box-sizing: border-box;
 }
@@ -645,21 +645,17 @@ body {
     right: 620px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
-    width: 1200px;
+    width: 1800px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
    
 }
 
@@ -668,8 +664,8 @@ body {
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    left: 35px;
-    bottom: 5px;
+    left: 25px;
+    bottom: 2px;
 }
 
 .quadros-2 {
@@ -677,20 +673,18 @@ body {
     right: 600px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
+    width: 1500px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+
 }
 
 .quadros-2 img {
@@ -698,8 +692,8 @@ body {
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    left: 20px;
-    bottom: 5px;
+    left: 15px;
+    bottom: 0px;
 }
 
 .quadros-3 {
@@ -707,21 +701,18 @@ body {
     right: 580px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
-    width: 1000px;
+    width: 1500px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+
 }
 
 .quadros-3 img {
@@ -738,21 +729,19 @@ body {
     right: 540px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
-    width: 1100px;
+    width: 1500px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+    
 }
 
 .quadros-4 img {
@@ -769,20 +758,18 @@ body {
     right: 520px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
+    width: 1500px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+
 }
 
 .quadros-5 img {
@@ -799,20 +786,18 @@ body {
     right: 500px;
     padding: 20px;
     top: 10px;
-
     cursor: pointer;
-    position: relative;
     
+    width: 1500px;
     height: 450px;
     background-color: antiquewhite;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     text-align: center;
     
     box-shadow: 0 0 0 5px rgb(5, 61, 57);
-    transition: all 0.6s cubic-bezier(0.175, 0.85, 0.32, 1.275);
+
 
 }
 
@@ -837,7 +822,7 @@ body {
     margin: auto;
     padding: 50px 0;
     text-align: center;
-    background: linear-gradient(rgb(104, 141, 139), rgb(166, 196, 194));
+    background-color: rgb(7, 126, 116);
 }
 
 .atendimento h3 {
@@ -860,6 +845,20 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.atendimento p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    position: relative;
+
+    max-width: 800px;
+    bottom: 0px;
+    left: 650px;
+    
+
+}
+
 /* Atendimento */
 /* Atendimento */
 
@@ -868,8 +867,72 @@ body {
 
 .Copy {
     text-align: center;
-    background: linear-gradient(rgb(166, 196, 194), rgb(207, 207, 207))
+    background-color: rgb(7, 126, 116);
 }
 
 /* Copy */
 /* Copy */
+
+/* Media Queries */
+/* Media Queries */
+
+@media (max-width: 1280px) {
+    .secao-banner {
+        max-height: 500px;
+        max-width: 800px;
+    }
+    .secao-informacoes p{
+        max-width: 500px;
+        max-height: 800px;
+        right: 150px;
+    }
+
+    .secao-valores {
+        
+        right: 300px;
+        position: relative;
+
+    }
+
+    .topo-links a {
+        left: 1000px;
+        
+    }
+
+    .card {
+        left: 200px;
+        
+    }
+
+    .especialidades {
+        left: 400px;
+        position: relative;
+
+    }
+    .especialidades h3 {
+        left: 100px;
+        position: relative;
+    }
+
+    iframe {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 500px;
+    }
+
+    .atendimento p {
+        left: 500px;
+        position: relative;
+    }
+
+    .Copy {
+        left: 500px;
+        position: relative;
+    }
+
+
+}
+
+/* Media Queries */
+/* Media Queries */
